@@ -1,12 +1,11 @@
 package com.onlinecalculator.calculator.calctypes;
 
 import java.util.Scanner;
-
-class Calc1
+public class BasicCalc
 {
-	int a,b,c,ch,res;
+	 public int a,b,c,ch,res;
 	
-	public Calc1( )
+	public BasicCalc( )
         { // hello
 		a=0;
 		b=0;
@@ -96,14 +95,3 @@ class Calc1
 	}
 	
 }
-public class BasicCalc
-{
-	public static void main(String agrs[])
-	{
-		Calc1 c=new Calc1();
-		c.menu();
-		c.userInputs();
-		c.performOperation();
-		
-	}
-	}
